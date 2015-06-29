@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<meta charset="utf-8">
+<head>
+<style>
+nav{
+text-align: center;
+}
+footer{
+position:bottom;
+}
+izquierda{
+/*position: relative;*/
+float: left;
+height: 100%;
+background-color: #FFFFFF;
+}
+derecha{
+/*position: relative;*/
+float: right;
+height: 100%;
+background-color: #FFFFFF;
+}
+</style>
+<title>Ejemplo de una web con HTML5</title>
+</head>
+<body BGCOLOR=D9D9D9>
+<hr>
+<header>
+<p>Página Web en HTML5 de ejemplo de funcionamiento</p>
+</header>
+<nav>
+ <!--<ul>
+    <li>--><a href="otro.html">otro de Html5</a>--<a href="otro2.html">otro2 de Html</a><!--</li>
+    <li><a href="otro2.html">otro2 de Html</a></li>-->
+    <!--<li><a href="cursojavascript.html">Curso de Javascript</a></li>-->
+  <!--</ul>-->
+</nav>
+<izquierda>
+  <h1>Izquierda</h1>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</izquierda>
+<derecha>
+  <h1>2º lado</h1>
+  <p>Sabemos lado de la derecha.</p>
+</derecha>
+<aside>
+  <h1>aside 1º lado</h1>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+<aside>
+  <h1>aside 2º lado</h1>
+  <p>No sabemos si lado de la izquierda o derecha.</p>
+</aside>
+
+<main>
+<h1>Este es el primer Capítulo</h1>
+<article>
+autocomplete autofocus form
+formaction formenctype formmethod
+formnovalidate formtarget height and width
+list min and max multiple
+pattern (regexp) placeholder required step
+</article>
+<h2>Este es el segundo Capítulo</h2>
+<section>
+autocomplete autofocus form
+formaction formenctype formmethod
+formnovalidate formtarget height and width
+list min and max multiple
+pattern (regexp) placeholder required step
+</section>
+</main>
+<footer>
+<p>Este es el footer de mi página HTML5</p>
+</footer>
+</body>
+</html>
